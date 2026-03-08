@@ -1,6 +1,6 @@
 import cv2 as cv
 
-#0 es la primer camara disponible, la de la computadora
+#!0 es la primer camara disponible, la de la computadora
 capture = cv.VideoCapture(0)
 while True: 
     isTrue, frame = capture.read()
