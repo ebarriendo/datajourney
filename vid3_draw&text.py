@@ -20,14 +20,15 @@ cv.imshow('Cuadro',blank)
 fondo = np.zeros((500,500,3),dtype='uint8')
 #cv.rectangle(fondo,(0,0),(200,100),(0,0,255),thickness=2)
 #cv.rectangle(fondo,(0,0),(200,100),(0,0,255),thickness=-1)
-cv.rectangle(fondo,(0,0),
+cv.rectangle(fondo,
+             (0,0),
              (fondo.shape[1]//2,fondo.shape[0]//2),
              (0,0,255),
              thickness=cv.FILLED)
 
 # cv.rectangle(fondo,(0,0),(200,100),(0,0,255),thickness=cv.FILLED)
 
-#? Draw a circle 
+#? Draw a cir)cle 
 cv.circle(fondo,
           (fondo.shape[1]//2,fondo.shape[0]//2),
           60,
@@ -47,7 +48,7 @@ cv.line(fondo,
 cv.putText(fondo,
            'Hello my name is Emmanuel',
            (50,400),
-           cv.FONT_HERSHEY_TRIPLEX,
+           cv.FONT_HERSHEY_TRIPLEX      ,
            1.0,
            (255,0,0),
            thickness=2
