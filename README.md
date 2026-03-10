@@ -1,0 +1,1 @@
+Estoy aprendiendo a aprender conmigo mismo. Hoy logre tener un avance, me levante temprano para estudiar en lugar de hacer ejercicio. Considero que podre obtener ventaja de esto bajo la excusa de que tengo que hacer mi trabajo matutino. 
